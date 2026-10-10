@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hush</string>
+    <string name="device_admin_label">Hush Anti-Uninstall Protection</string>
+    <string name="device_admin_description">Prevents unauthorized uninstallation of Hush App Locker.</string>
+</resources>
