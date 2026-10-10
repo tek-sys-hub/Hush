@@ -1,4 +1,4 @@
-# hush
+# Hush
 
 A new Flutter project.
 
