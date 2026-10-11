@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
-import '../../core/widgets/phone_status_bar.dart';
 import '../pin/widgets/numeric_keypad.dart';
 import '../pin/widgets/pin_dots_indicator.dart';
 
@@ -88,8 +87,6 @@ class _AppUnlockScreenState extends State<AppUnlockScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            const PhoneStatusBar(),
-
             // Optional close / back handle
             Align(
               alignment: Alignment.centerLeft,

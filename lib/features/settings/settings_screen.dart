@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/custom_back_button.dart';
-import '../../core/widgets/phone_status_bar.dart';
 import 'widgets/settings_tile.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -132,8 +131,6 @@ class SettingsScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const PhoneStatusBar(),
-
             // Top Navigation & Title Bar
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),

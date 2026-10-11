@@ -3,7 +3,6 @@ import '../../core/services/permission_service.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/app_button.dart';
 import '../../core/widgets/custom_back_button.dart';
-import '../../core/widgets/phone_status_bar.dart';
 
 class PermissionsScreen extends StatefulWidget {
   final VoidCallback? onContinue;
@@ -71,8 +70,6 @@ class _PermissionsScreenState extends State<PermissionsScreen>
       body: SafeArea(
         child: Column(
           children: [
-            const PhoneStatusBar(),
-
             // Top Navigation
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),

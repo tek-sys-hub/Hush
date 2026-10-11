@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/app_button.dart';
 import '../../core/widgets/custom_back_button.dart';
-import '../../core/widgets/phone_status_bar.dart';
 import 'models/app_info.dart';
 import 'widgets/app_list_tile.dart';
 
@@ -133,8 +132,6 @@ class _SelectAppsScreenState extends State<SelectAppsScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            const PhoneStatusBar(),
-
             // Top Navigation & Title Bar
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),

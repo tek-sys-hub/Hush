@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
-import '../../core/widgets/phone_status_bar.dart';
 import 'widgets/wave_background_painter.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -66,7 +65,6 @@ class _SplashScreenState extends State<SplashScreen> {
             // Content
             Column(
               children: [
-                const PhoneStatusBar(),
                 const Spacer(flex: 2),
 
                 // Center App Logo

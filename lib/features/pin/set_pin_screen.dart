@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/custom_back_button.dart';
-import '../../core/widgets/phone_status_bar.dart';
 import 'widgets/numeric_keypad.dart';
 import 'widgets/pin_dots_indicator.dart';
 
@@ -53,8 +52,6 @@ class _SetPinScreenState extends State<SetPinScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            const PhoneStatusBar(),
-
             // Top Navigation Bar
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),

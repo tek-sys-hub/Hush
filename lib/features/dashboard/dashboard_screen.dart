@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
-import '../../core/widgets/phone_status_bar.dart';
 import 'widgets/locked_app_item.dart';
 
 class DashboardScreen extends StatelessWidget {
@@ -33,8 +32,6 @@ class DashboardScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const PhoneStatusBar(),
-
             // Top Header Bar
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 12.0),

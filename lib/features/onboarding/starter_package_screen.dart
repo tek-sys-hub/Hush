@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/app_button.dart';
-import '../../core/widgets/phone_status_bar.dart';
 import 'widgets/benefit_item.dart';
 
 class StarterPackageScreen extends StatelessWidget {
@@ -21,7 +20,6 @@ class StarterPackageScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const PhoneStatusBar(),
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24.0),
